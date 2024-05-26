@@ -17,8 +17,8 @@ SERVO_MIN_DUTY = 2.5 + OFFSET_DUTY
 SERVO_MAX_DUTY = 12.5 + OFFSET_DUTY
 SERVO_DELAY_SEC = 0.001
 
-@app.route('/switch', methods=['POST'])
-def switch():
+@app.route('/toggle', methods=['POST'])
+def toggle():
     with lock:
         GPIO.setmode(GPIO.BOARD)
         GPIO.setup(PIN, GPIO.OUT)
