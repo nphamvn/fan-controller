@@ -1,0 +1,790 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [20/May/2024 14:54:23] "GET /ping HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 14:54:28] "POST /switch HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 14:54:31] "POST /switch HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [20/May/2024 14:54:53] "POST /switch HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 14:54:55] "POST /switch HTTP/1.1" 200 -
+127.0.0.1 - - [20/May/2024 14:55:01] "POST /switch HTTP/1.1" 200 -
+192.168.0.101 - - [20/May/2024 14:57:44] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 14:59:30] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 14:59:37] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:01:06] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:04:42] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:04:52] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:11:35] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:11:42] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:12:42] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:12:51] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:21:06] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:21:12] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:21:26] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:21:31] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:21:40] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:21:45] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:22:01] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 15:22:07] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [20/May/2024 15:30:13] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [20/May/2024 15:30:19] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 21:00:04] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [20/May/2024 21:00:36] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 01:19:53] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [21/May/2024 01:20:44] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [21/May/2024 01:20:50] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [21/May/2024 01:20:55] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 01:37:40] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 01:37:43] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 01:37:47] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 01:37:52] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [21/May/2024 06:22:18] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [21/May/2024 07:23:33] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 12:20:51] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 12:42:42] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 12:43:23] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 12:51:13] "POST /switch HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 12:51:38] "POST /switch HTTP/1.1" 200 -
+192.168.0.100 - - [21/May/2024 13:24:27] "POST /switch HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/home/nampham/workspaces/fan/app.py", line 4, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.101 - - [21/May/2024 14:05:36] "POST /switch HTTP/1.1" 200 -
+192.168.0.101 - - [21/May/2024 14:05:40] "POST /switch HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.101 - - [21/May/2024 14:13:57] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/May/2024 14:14:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/May/2024 14:15:57] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/May/2024 14:16:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 14:16:54] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 14:17:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 16:18:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 16:18:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 21:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [21/May/2024 21:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [22/May/2024 06:38:35] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:38:42] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:38:49] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:38:58] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:39:18] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:47:25] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:48:01] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:48:17] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 06:48:19] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 07:45:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [22/May/2024 07:45:14] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [22/May/2024 08:33:58] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 08:34:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [22/May/2024 09:22:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 12:34:28] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 12:34:41] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 12:35:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 13:10:33] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [22/May/2024 13:51:06] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 13:51:10] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 13:51:29] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 13:51:32] "[33mPOST /switch HTTP/1.1[0m" 404 -
+192.168.0.100 - - [22/May/2024 13:51:38] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 15:35:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 15:35:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 21:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [22/May/2024 21:00:56] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [23/May/2024 05:33:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [23/May/2024 12:32:59] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [23/May/2024 12:33:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [23/May/2024 12:33:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [23/May/2024 12:33:18] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [23/May/2024 12:33:27] "POST /toggle HTTP/1.1" 200 -
+192.168.0.102 - - [23/May/2024 12:46:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [23/May/2024 14:21:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [23/May/2024 15:09:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/May/2024 15:10:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [23/May/2024 21:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [23/May/2024 21:00:26] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [24/May/2024 04:37:53] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 12:27:30] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 12:35:47] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 15:09:55] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 15:14:40] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 15:15:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 15:15:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 15:15:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 16:35:31] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 21:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [24/May/2024 21:00:15] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [25/May/2024 02:26:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [25/May/2024 02:47:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [25/May/2024 09:52:45] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [25/May/2024 12:06:30] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [25/May/2024 15:49:29] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [25/May/2024 15:49:31] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [25/May/2024 21:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [25/May/2024 21:00:40] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [26/May/2024 01:37:26] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 02:04:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 02:32:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [26/May/2024 02:32:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 02:41:02] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 04:07:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [26/May/2024 07:58:14] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [26/May/2024 14:31:45] "GET /ping HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 15:25:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 16:12:02] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 16:12:26] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 21:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [26/May/2024 21:00:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [27/May/2024 05:44:16] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [27/May/2024 12:37:13] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [27/May/2024 15:39:47] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [27/May/2024 15:39:53] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [27/May/2024 21:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [27/May/2024 21:00:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [27/May/2024 21:03:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [27/May/2024 21:03:44] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [28/May/2024 02:21:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [28/May/2024 02:50:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [28/May/2024 05:06:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 12:47:50] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 15:53:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 15:54:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 15:54:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 15:56:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 15:56:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [28/May/2024 19:01:51] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [29/May/2024 05:01:28] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [29/May/2024 14:24:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [29/May/2024 15:52:22] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [29/May/2024 15:52:27] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [29/May/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [29/May/2024 19:00:51] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [30/May/2024 01:47:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [30/May/2024 05:52:13] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [30/May/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [30/May/2024 19:00:29] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [31/May/2024 03:54:41] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [31/May/2024 06:10:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [31/May/2024 13:19:33] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [31/May/2024 13:54:30] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [31/May/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [31/May/2024 19:00:27] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [01/Jun/2024 02:38:34] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [01/Jun/2024 11:21:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [01/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [01/Jun/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.107 - - [02/Jun/2024 15:31:58] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [02/Jun/2024 16:38:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [02/Jun/2024 16:38:02] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [02/Jun/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [02/Jun/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [03/Jun/2024 05:24:46] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [03/Jun/2024 13:48:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [03/Jun/2024 13:49:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [03/Jun/2024 13:49:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [03/Jun/2024 15:40:19] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [03/Jun/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [03/Jun/2024 19:01:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Jun/2024 05:53:55] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Jun/2024 08:04:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [04/Jun/2024 14:50:16] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [04/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [04/Jun/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [05/Jun/2024 03:03:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [05/Jun/2024 12:19:20] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [05/Jun/2024 13:23:42] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [05/Jun/2024 15:18:46] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [05/Jun/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [05/Jun/2024 19:00:39] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [06/Jun/2024 03:28:25] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [06/Jun/2024 15:29:20] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [06/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [06/Jun/2024 19:01:54] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Jun/2024 03:31:25] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Jun/2024 04:43:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Jun/2024 14:09:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [07/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [07/Jun/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [08/Jun/2024 02:59:53] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [08/Jun/2024 16:13:27] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [08/Jun/2024 16:13:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [08/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [08/Jun/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [09/Jun/2024 03:00:29] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [09/Jun/2024 04:29:57] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [09/Jun/2024 11:48:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [09/Jun/2024 15:34:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [09/Jun/2024 15:34:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [09/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [09/Jun/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [10/Jun/2024 10:57:49] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [10/Jun/2024 14:11:50] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [10/Jun/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [10/Jun/2024 19:00:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [11/Jun/2024 02:53:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [11/Jun/2024 02:53:13] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [11/Jun/2024 02:53:16] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [11/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [11/Jun/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [12/Jun/2024 02:22:58] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [12/Jun/2024 13:40:18] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [12/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [12/Jun/2024 19:03:30] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [13/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [13/Jun/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [14/Jun/2024 03:52:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [14/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [14/Jun/2024 19:00:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [15/Jun/2024 07:46:28] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [15/Jun/2024 10:54:35] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [15/Jun/2024 10:54:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [15/Jun/2024 10:54:38] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [15/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [15/Jun/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [16/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [16/Jun/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.107 - - [18/Jun/2024 14:10:34] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [18/Jun/2024 14:18:45] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [18/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [18/Jun/2024 19:00:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [19/Jun/2024 03:00:22] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [19/Jun/2024 12:23:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [19/Jun/2024 12:23:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [19/Jun/2024 12:23:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [19/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.107 - - [19/Jun/2024 19:00:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [20/Jun/2024 03:00:24] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.100 - - [20/Jun/2024 13:24:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [20/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [20/Jun/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/Jun/2024 01:51:22] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/Jun/2024 02:04:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/Jun/2024 05:40:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/Jun/2024 06:29:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/Jun/2024 09:32:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/Jun/2024 14:25:02] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [21/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [21/Jun/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [22/Jun/2024 03:00:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [22/Jun/2024 07:43:18] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [22/Jun/2024 07:43:23] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [22/Jun/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [22/Jun/2024 19:00:13] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [22/Jun/2024 19:00:42] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [23/Jun/2024 03:00:30] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [23/Jun/2024 08:55:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jun/2024 18:11:57] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jun/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jun/2024 19:00:46] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [24/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [24/Jun/2024 19:04:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [25/Jun/2024 03:36:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [25/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [25/Jun/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [26/Jun/2024 03:19:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [26/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [26/Jun/2024 19:00:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [27/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [27/Jun/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Jun/2024 03:00:38] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Jun/2024 09:17:44] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Jun/2024 10:48:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [28/Jun/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [28/Jun/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [29/Jun/2024 14:04:22] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [29/Jun/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [29/Jun/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.100 - - [01/Jul/2024 15:30:13] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [01/Jul/2024 15:30:16] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [01/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [01/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [02/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [02/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [03/Jul/2024 03:05:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [03/Jul/2024 14:41:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [03/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [03/Jul/2024 19:00:38] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Jul/2024 03:00:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Jul/2024 14:12:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [04/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [04/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [05/Jul/2024 02:59:57] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [05/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [05/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [06/Jul/2024 03:00:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [06/Jul/2024 04:51:57] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [06/Jul/2024 08:26:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [06/Jul/2024 15:12:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [06/Jul/2024 16:20:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [06/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [06/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Jul/2024 03:03:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Jul/2024 12:54:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [07/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [07/Jul/2024 19:00:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [08/Jul/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [08/Jul/2024 19:01:39] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [09/Jul/2024 03:02:45] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [09/Jul/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [09/Jul/2024 19:00:29] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [10/Jul/2024 03:14:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [10/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [10/Jul/2024 19:00:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [11/Jul/2024 03:02:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [11/Jul/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [11/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [12/Jul/2024 02:17:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [12/Jul/2024 13:40:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [12/Jul/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [12/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [13/Jul/2024 03:01:53] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [13/Jul/2024 18:21:25] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [13/Jul/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [13/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [14/Jul/2024 03:00:14] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [14/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [14/Jul/2024 19:00:59] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [15/Jul/2024 03:05:41] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [15/Jul/2024 14:24:31] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [15/Jul/2024 19:06:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [15/Jul/2024 19:06:15] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [16/Jul/2024 03:04:44] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [16/Jul/2024 03:06:54] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [16/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [16/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [17/Jul/2024 03:05:51] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [17/Jul/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [17/Jul/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [18/Jul/2024 14:08:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [18/Jul/2024 14:46:31] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [18/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [18/Jul/2024 19:01:50] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [19/Jul/2024 19:01:19] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [19/Jul/2024 19:06:23] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [20/Jul/2024 08:51:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [20/Jul/2024 09:14:34] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [20/Jul/2024 09:44:58] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [20/Jul/2024 09:45:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [20/Jul/2024 09:45:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [20/Jul/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [20/Jul/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [21/Jul/2024 08:26:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [21/Jul/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [21/Jul/2024 19:04:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [21/Jul/2024 19:59:26] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [22/Jul/2024 16:30:18] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [22/Jul/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [22/Jul/2024 19:04:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jul/2024 01:13:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jul/2024 01:13:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [23/Jul/2024 09:15:40] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [23/Jul/2024 14:28:33] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [23/Jul/2024 14:28:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [23/Jul/2024 14:48:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jul/2024 15:09:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jul/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.105 - - [23/Jul/2024 19:02:41] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [24/Jul/2024 03:07:41] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.100 - - [26/Jul/2024 14:01:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [26/Jul/2024 14:01:40] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [26/Jul/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [26/Jul/2024 19:01:19] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Jul/2024 03:02:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Jul/2024 11:10:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [27/Jul/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [27/Jul/2024 19:00:35] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [28/Jul/2024 03:00:44] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [28/Jul/2024 03:00:53] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Jul/2024 08:28:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [28/Jul/2024 19:02:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [28/Jul/2024 19:02:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Jul/2024 19:05:13] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [29/Jul/2024 03:48:45] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [29/Jul/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [29/Jul/2024 19:02:16] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [30/Jul/2024 03:10:53] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [30/Jul/2024 13:51:25] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [30/Jul/2024 14:47:59] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [30/Jul/2024 19:02:02] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [30/Jul/2024 19:02:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [31/Jul/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [31/Jul/2024 19:02:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [01/Aug/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [01/Aug/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [02/Aug/2024 19:02:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [02/Aug/2024 19:02:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [03/Aug/2024 03:08:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [03/Aug/2024 15:09:53] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [03/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [03/Aug/2024 19:01:19] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Aug/2024 13:46:28] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Aug/2024 13:46:33] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Aug/2024 13:46:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [04/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [04/Aug/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [05/Aug/2024 18:58:46] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [05/Aug/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [05/Aug/2024 19:00:20] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [06/Aug/2024 14:22:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [06/Aug/2024 14:22:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [06/Aug/2024 14:22:34] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [06/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [06/Aug/2024 19:02:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Aug/2024 03:27:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Aug/2024 15:30:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [07/Aug/2024 15:30:13] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [07/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [07/Aug/2024 19:00:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [08/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [08/Aug/2024 19:01:44] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [09/Aug/2024 03:24:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [09/Aug/2024 14:19:18] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [09/Aug/2024 14:34:22] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [09/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [09/Aug/2024 19:00:34] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [10/Aug/2024 14:03:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [10/Aug/2024 14:51:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [10/Aug/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [10/Aug/2024 19:02:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [11/Aug/2024 03:05:50] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [11/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [11/Aug/2024 19:02:57] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [12/Aug/2024 14:17:18] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [12/Aug/2024 14:26:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [12/Aug/2024 14:29:40] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [12/Aug/2024 14:54:59] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [12/Aug/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [12/Aug/2024 19:01:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [13/Aug/2024 00:32:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [13/Aug/2024 05:52:01] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [13/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [13/Aug/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [14/Aug/2024 03:00:23] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [14/Aug/2024 11:00:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [14/Aug/2024 20:35:25] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [15/Aug/2024 04:35:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [15/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [15/Aug/2024 19:02:22] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [16/Aug/2024 03:07:25] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [16/Aug/2024 14:29:35] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [16/Aug/2024 14:29:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [16/Aug/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [16/Aug/2024 19:02:00] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [17/Aug/2024 02:40:45] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [17/Aug/2024 03:52:38] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [17/Aug/2024 03:53:40] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [17/Aug/2024 14:17:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [17/Aug/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [17/Aug/2024 19:01:30] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [18/Aug/2024 14:00:12] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [18/Aug/2024 14:54:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [18/Aug/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [18/Aug/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [19/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [19/Aug/2024 19:00:32] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [20/Aug/2024 05:49:29] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [20/Aug/2024 14:21:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [20/Aug/2024 15:11:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [20/Aug/2024 15:15:46] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [20/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [20/Aug/2024 19:00:33] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [21/Aug/2024 06:13:15] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [21/Aug/2024 19:00:03] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [21/Aug/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [22/Aug/2024 03:02:58] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [22/Aug/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [22/Aug/2024 19:00:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [23/Aug/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [23/Aug/2024 19:00:17] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [24/Aug/2024 03:30:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [24/Aug/2024 05:14:34] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [24/Aug/2024 13:04:47] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [24/Aug/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [24/Aug/2024 19:01:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [25/Aug/2024 19:03:21] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [25/Aug/2024 19:03:27] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [26/Aug/2024 06:20:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [26/Aug/2024 14:28:59] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [26/Aug/2024 19:02:34] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [26/Aug/2024 19:02:38] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Aug/2024 01:23:31] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Aug/2024 10:26:37] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Aug/2024 10:26:38] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Aug/2024 10:26:42] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [27/Aug/2024 14:44:10] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Aug/2024 14:45:46] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [27/Aug/2024 14:52:52] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [27/Aug/2024 15:02:46] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [27/Aug/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [27/Aug/2024 19:00:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Aug/2024 01:20:22] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Aug/2024 01:20:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Aug/2024 01:20:26] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Aug/2024 02:31:18] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Aug/2024 02:31:19] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [28/Aug/2024 02:31:21] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.104 - - [28/Aug/2024 14:35:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [28/Aug/2024 14:35:33] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [28/Aug/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [28/Aug/2024 19:01:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [29/Aug/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [29/Aug/2024 19:00:33] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [30/Aug/2024 03:04:54] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [30/Aug/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [30/Aug/2024 19:00:11] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [31/Aug/2024 03:05:50] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [31/Aug/2024 10:13:43] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [31/Aug/2024 19:01:36] "POST /toggle HTTP/1.1" 200 -
+192.168.0.104 - - [31/Aug/2024 19:02:57] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.100 - - [01/Sep/2024 11:42:09] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [01/Sep/2024 11:42:16] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [01/Sep/2024 11:42:20] "POST /toggle HTTP/1.1" 200 -
+192.168.0.100 - - [01/Sep/2024 11:42:24] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [02/Sep/2024 13:10:54] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [02/Sep/2024 13:11:12] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+[33mPress CTRL+C to quit[0m
+192.168.0.101 - - [04/Sep/2024 15:58:48] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Sep/2024 15:58:54] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Sep/2024 16:17:58] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Sep/2024 16:18:05] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Sep/2024 18:47:06] "POST /toggle HTTP/1.1" 200 -
+192.168.0.101 - - [04/Sep/2024 18:47:09] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [05/Sep/2024 13:23:28] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [05/Sep/2024 13:29:41] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [05/Sep/2024 14:02:47] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [05/Sep/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [05/Sep/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [06/Sep/2024 01:12:20] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [06/Sep/2024 19:01:41] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [06/Sep/2024 19:06:46] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [07/Sep/2024 19:00:08] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [07/Sep/2024 19:00:36] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [08/Sep/2024 03:05:29] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [08/Sep/2024 06:14:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [08/Sep/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [08/Sep/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [09/Sep/2024 02:46:29] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [09/Sep/2024 04:34:20] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [09/Sep/2024 06:20:13] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [09/Sep/2024 13:04:29] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [09/Sep/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [09/Sep/2024 19:00:11] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [10/Sep/2024 06:34:19] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [10/Sep/2024 10:57:57] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [10/Sep/2024 14:08:32] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [10/Sep/2024 19:03:39] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [10/Sep/2024 19:04:52] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [11/Sep/2024 01:51:27] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [11/Sep/2024 14:34:52] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [11/Sep/2024 19:02:33] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [11/Sep/2024 19:02:36] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [12/Sep/2024 02:53:18] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [12/Sep/2024 08:16:11] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [12/Sep/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [12/Sep/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [13/Sep/2024 04:57:59] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.40.212:5000
+[33mPress CTRL+C to quit[0m
+192.168.40.80 - - [13/Sep/2024 13:44:02] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [13/Sep/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [13/Sep/2024 19:00:51] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [14/Sep/2024 19:31:48] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [14/Sep/2024 19:31:52] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [14/Sep/2024 19:31:58] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [14/Sep/2024 19:32:08] "POST /toggle HTTP/1.1" 200 -
+192.168.40.70 - - [15/Sep/2024 11:35:18] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [15/Sep/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [15/Sep/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [16/Sep/2024 19:00:15] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [16/Sep/2024 19:03:01] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [17/Sep/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [17/Sep/2024 19:00:46] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [18/Sep/2024 00:48:05] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [18/Sep/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [18/Sep/2024 19:00:07] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [19/Sep/2024 19:02:09] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [19/Sep/2024 19:02:14] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [20/Sep/2024 19:00:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [20/Sep/2024 19:00:49] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [21/Sep/2024 02:33:17] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [21/Sep/2024 07:09:13] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [21/Sep/2024 16:13:02] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [21/Sep/2024 19:00:04] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [21/Sep/2024 19:00:09] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [22/Sep/2024 19:00:05] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [22/Sep/2024 19:01:37] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [23/Sep/2024 03:53:19] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [23/Sep/2024 04:33:25] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [23/Sep/2024 07:51:52] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [23/Sep/2024 07:53:17] "POST /toggle HTTP/1.1" 200 -
+192.168.40.80 - - [23/Sep/2024 07:53:27] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:13:56] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:14:00] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:19:46] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:19:49] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:34:51] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:34:54] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:34:57] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:34:59] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:05] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:21] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:35] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:38] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:45] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:53] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:35:56] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:36:11] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:38:15] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:38:23] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:39:37] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:39:39] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:41:30] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:41:35] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:41:44] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:41:47] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:41:51] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:42:15] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:42:20] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:42:35] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:42:59] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:43:19] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:44:16] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.40.212:5000
+[33mPress CTRL+C to quit[0m
+192.168.40.92 - - [23/Sep/2024 13:45:07] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:45:54] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:46:35] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:48:17] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:48:21] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:49:50] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:50:29] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:50:31] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:51:05] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:51:08] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:51:11] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:51:14] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:55:06] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:55:53] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 13:55:56] "POST /toggle HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.40.212:5000
+[33mPress CTRL+C to quit[0m
+192.168.40.92 - - [23/Sep/2024 14:07:08] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:07:18] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:07:41] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:12:08] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:12:20] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:12:31] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:12:36] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:12:59] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:13:08] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:13:12] "POST /toggle HTTP/1.1" 200 -
+192.168.40.92 - - [23/Sep/2024 14:13:21] "POST /toggle HTTP/1.1" 200 -

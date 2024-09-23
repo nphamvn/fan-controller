@@ -1,0 +1,9 @@
+services:
+  app:
+    image: fan-controller
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - /sys:/sys
